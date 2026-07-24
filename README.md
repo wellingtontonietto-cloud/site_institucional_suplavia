@@ -126,6 +126,20 @@ Tipografia: **Space Grotesk** (títulos) + **Inter** (corpo), via Google Fonts.
 
 ## Deploy
 
-Por ser 100% estático, publica em qualquer host: Vercel, Netlify, Cloudflare
-Pages, GitHub Pages, S3/CloudFront ou o próprio servidor. Basta subir o conteúdo
-da pasta.
+**Produção:** VPS (Docker) — container `nginx:alpine` (`suplavia-site`) servindo os
+arquivos do repositório, atrás do **Caddy** (HTTPS automático) em
+`www.suplavia.com.br`. Repositório: `github.com/wellingtontonietto-cloud/site_institucional_suplavia`.
+
+### Atualizar o site (1 comando)
+
+```bash
+./deploy.sh "mensagem do commit"
+```
+
+Isso commita as mudanças locais, faz `push` no GitHub e sincroniza o VPS
+(`git reset --hard` no diretório montado no container; o nginx reflete na hora,
+sem downtime). Config do servidor fica em **`.deploy.env`** (não versionado — copie
+de `.deploy.env.example` na 1ª vez).
+
+> Por ser 100% estático, também roda em qualquer host: Vercel, Netlify, Cloudflare
+> Pages, GitHub Pages, S3/CloudFront. Há um `vercel.json` pronto (URLs limpas + headers).
