@@ -1,0 +1,12 @@
+{
+  "name": "Suplavia — Smart Supply Technology",
+  "short_name": "Suplavia",
+  "description": "Tecnologia e inteligência artificial para supply. Especialistas TOTVS.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060B18",
+  "theme_color": "#060B18",
+  "icons": [
+    { "src": "assets/favicon.png", "sizes": "256x256", "type": "image/png", "purpose": "any" }
+  ]
+}

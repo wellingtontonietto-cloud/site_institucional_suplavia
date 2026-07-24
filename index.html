@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suplavia — Tecnologia e IA para supply | Especialistas TOTVS</title>
+  <meta name="description" content="Suplavia: tecnologia e inteligência artificial para supply, compras e homologação de fornecedores. Especialistas no ecossistema TOTVS (Protheus, RM, Datasul e Fluig). Mais de 1M de fornecedores gerenciados." />
+  <meta name="keywords" content="supply, compras, homologação de fornecedores, inteligência artificial, IA, TOTVS, Protheus, RM, Datasul, Fluig, XConecta, Compras Digital, ERP" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#060B18" />
+  <meta name="author" content="Suplavia — Smart Supply Technology" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Suplavia" />
+  <meta property="og:title" content="Suplavia — Tecnologia e IA para supply | Especialistas TOTVS" />
+  <meta property="og:description" content="Inteligência artificial e expertise TOTVS para transformar sua gestão de fornecedores e compras. Mais de 1M de fornecedores gerenciados." />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:url" content="https://www.suplavia.com.br" />
+  <meta property="og:image" content="https://www.suplavia.com.br/assets/hero-network.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Suplavia — Tecnologia e IA para supply | Especialistas TOTVS" />
+  <meta name="twitter:description" content="Inteligência artificial e expertise TOTVS para supply, compras e homologação de fornecedores." />
+  <meta name="twitter:image" content="https://www.suplavia.com.br/assets/hero-network.jpg" />
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="canonical" href="https://www.suplavia.com.br" />
+
+  <!-- Preload do fundo do hero (melhora LCP) -->
+  <link rel="preload" as="image" href="assets/hero-network.jpg" />
+
+  <!-- Dados estruturados (SEO / rich results) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Suplavia",
+    "legalName": "Suplavia — Smart Supply Technology",
+    "url": "https://www.suplavia.com.br",
+    "logo": "https://www.suplavia.com.br/assets/suplavia-logo-light-bg.png",
+    "description": "Tecnologia e inteligência artificial para supply, compras e homologação de fornecedores. Especialistas no ecossistema TOTVS.",
+    "email": "atendimento@suplavia.com.br",
+    "telephone": "+5521996921453",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+5521996921453",
+      "contactType": "sales",
+      "areaServed": "BR",
+      "availableLanguage": "Portuguese"
+    },
+    "sameAs": ["https://www.linkedin.com/company/suplavia"],
+    "areaServed": "BR",
+    "address": [
+      { "@type": "PostalAddress", "addressLocality": "São Paulo", "addressRegion": "SP", "addressCountry": "BR" },
+      { "@type": "PostalAddress", "addressLocality": "Rio de Janeiro", "addressRegion": "RJ", "addressCountry": "BR" },
+      { "@type": "PostalAddress", "addressLocality": "Belo Horizonte", "addressRegion": "MG", "addressCountry": "BR" }
+    ],
+    "knowsAbout": ["Supply", "Compras", "Homologação de fornecedores", "Inteligência Artificial", "TOTVS", "Protheus", "RM", "Datasul", "Fluig"]
+  }
+  </script>
+
+  <!-- Google Analytics 4 — substitua G-XXXXXXXXXX pelo seu ID de medição e descomente:
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Progressive enhancement: if JS is off, show all content and hide the JS-only menu -->
+  <noscript>
+    <style>
+      .reveal { opacity: 1 !important; transform: none !important; }
+      .mobile-menu { display: none !important; }
+    </style>
+  </noscript>
+</head>
+<body>
+
+  <a class="skip-link" href="#quem-somos">Pular para o conteúdo</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-inner">
+      <a href="#top" class="brand" aria-label="Suplavia — página inicial">
+        <img class="brand-logo" src="assets/suplavia-logo.svg" alt="Suplavia — Smart Supply Technology" width="152" height="42" />
+      </a>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#quem-somos">Quem somos</a>
+        <a href="#proposito">Propósito</a>
+        <a href="#atuacao">Atuação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#totvs">TOTVS</a>
+        <a href="#setores">Setores</a>
+      </nav>
+
+      <a href="#contato" class="btn btn-primary btn-nav">Fale conosco</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <a href="#quem-somos">Quem somos</a>
+      <a href="#origem">Origem</a>
+      <a href="#proposito">Propósito</a>
+      <a href="#atuacao">Atuação</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#tecnologia">Tecnologia</a>
+      <a href="#totvs">TOTVS</a>
+      <a href="#numeros">Números</a>
+      <a href="#setores">Setores</a>
+      <a href="#contato" class="btn btn-primary">Fale conosco</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/hero-network.jpg" alt="" width="1600" height="900" fetchpriority="high" />
+        <canvas id="net-canvas"></canvas>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <p class="eyebrow reveal">Smart Supply Technology &nbsp;•&nbsp; IA aplicada &nbsp;•&nbsp; Especialistas TOTVS</p>
+        <h1 class="hero-title reveal">
+          Tecnologia que conecta<br />
+          <span class="grad-text">supply, pessoas e decisões.</span>
+        </h1>
+        <p class="hero-sub reveal">
+          Inteligência artificial e expertise no ecossistema TOTVS para uma gestão
+          de fornecedores e compras mais integrada, ágil e confiável.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#contato" class="btn btn-primary">Falar com um especialista</a>
+          <a href="#quem-somos" class="btn btn-ghost">Conheça a Suplavia</a>
+        </div>
+        <ul class="hero-trust reveal" aria-label="Destaques">
+          <li>IA aplicada ao negócio</li>
+          <li>Especialistas TOTVS</li>
+          <li>+80 clientes atendidos</li>
+          <li>+1M de fornecedores gerenciados</li>
+        </ul>
+      </div>
+
+      <a href="#quem-somos" class="scroll-cue" aria-label="Rolar para a próxima seção">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ============ QUEM SOMOS ============ -->
+    <section class="section" id="quem-somos">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Quem somos</span>
+          <h2 class="section-title">Uma empresa de tecnologia especializada em supply</h2>
+        </div>
+
+        <div class="two-col">
+          <div class="two-col-text reveal">
+            <p class="lead">
+              A Suplavia transforma processos complexos em jornadas digitais
+              conectadas, rastreáveis e preparadas para evoluir.
+            </p>
+            <p>
+              Somos uma empresa brasileira dedicada a soluções para supply,
+              compras, homologação de fornecedores, compliance e gestão de
+              processos digitais.
+            </p>
+            <p>
+              Unimos conhecimento de negócio, engenharia de software, integração
+              de sistemas e inteligência aplicada para aproximar estratégia e
+              execução.
+            </p>
+          </div>
+
+          <div class="fact-grid reveal">
+            <div class="fact-card">
+              <span class="fact-label">Foco</span>
+              <span class="fact-value">Supply e processos digitais</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-label">Atuação</span>
+              <span class="fact-value">São Paulo, Rio de Janeiro e Belo Horizonte</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-label">Modelo</span>
+              <span class="fact-value">Tecnologia, implantação e evolução contínua</span>
+            </div>
+            <div class="fact-card">
+              <span class="fact-label">Essência</span>
+              <span class="fact-value">Proximidade, agilidade e confiança</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOSSA ORIGEM ============ -->
+    <section class="section section-alt" id="origem">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Nossa origem</span>
+          <h2 class="section-title">Nascemos para dar foco, continuidade e velocidade</h2>
+          <p class="section-intro">
+            Uma estrutura própria e especializada passou a concentrar a operação,
+            o atendimento e a evolução das soluções.
+          </p>
+        </div>
+
+        <div class="origin-banner reveal">
+          <div class="origin-date">
+            <span class="origin-day">Julho</span>
+            <span class="origin-year">2026</span>
+          </div>
+          <p class="origin-text">
+            A Suplavia assume a condução do <strong>XConecta</strong> e do
+            <strong>Compras Digital</strong> com uma equipe dedicada e
+            conhecimento técnico preservado.
+          </p>
+        </div>
+
+        <div class="cards-3">
+          <article class="pillar reveal">
+            <span class="pillar-num">01</span>
+            <h3>Continuidade</h3>
+            <p>Serviços, acessos, compromissos e conhecimento dos projetos preservados.</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar-num">02</span>
+            <h3>Estrutura dedicada</h3>
+            <p>Engenharia, operação, suporte e evolução orientados aos produtos e aos clientes.</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar-num">03</span>
+            <h3>Nova capacidade</h3>
+            <p>Especialistas em inteligência artificial, automação e dados ampliam o potencial de inovação.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROPÓSITO ============ -->
+    <section class="section purpose" id="proposito">
+      <div class="container">
+        <div class="purpose-inner reveal">
+          <span class="kicker">Nosso propósito</span>
+          <h2 class="purpose-statement">
+            Transformar relações em decisões de supply
+            <span class="grad-text">mais confiáveis.</span>
+          </h2>
+          <p class="purpose-sub">
+            Conectamos empresas, fornecedores, processos e tecnologia para que
+            cada decisão tenha contexto, evidência e responsabilidade.
+          </p>
+        </div>
+
+        <div class="verbs reveal">
+          <span class="verb">Integrar</span>
+          <span class="verb-sep">•</span>
+          <span class="verb">Simplificar</span>
+          <span class="verb-sep">•</span>
+          <span class="verb">Dar visibilidade</span>
+          <span class="verb-sep">•</span>
+          <span class="verb">Evoluir</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MISSÃO E VISÃO ============ -->
+    <section class="section section-alt" id="direcionadores">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Direcionadores</span>
+          <h2 class="section-title">Missão e visão orientam nossas escolhas</h2>
+          <p class="section-intro">
+            Tecnologia só gera valor quando melhora a experiência, o controle e a
+            qualidade das decisões.
+          </p>
+        </div>
+
+        <div class="mv-grid">
+          <article class="mv-card reveal">
+            <div class="mv-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.6" fill="currentColor"/></svg>
+            </div>
+            <h3>Missão</h3>
+            <p>
+              Simplificar e integrar a gestão de supply por meio de tecnologia,
+              dados e processos digitais.
+            </p>
+            <p>
+              Entregar mais controle, agilidade e confiança às decisões de nossos
+              clientes.
+            </p>
+          </article>
+
+          <article class="mv-card reveal">
+            <div class="mv-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1.5 12S5 5 12 5s10.5 7 10.5 7-3.5 7-10.5 7S1.5 12 1.5 12Z"/><circle cx="12" cy="12" r="3.2"/></svg>
+            </div>
+            <h3>Visão</h3>
+            <p>Ser referência no Brasil em tecnologia aplicada a supply.</p>
+            <p>
+              Ser reconhecida pela capacidade de conectar ecossistemas, evoluir
+              operações e construir relações mais eficientes e responsáveis.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CULTURA ============ -->
+    <section class="section" id="cultura">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Nossa cultura</span>
+          <h2 class="section-title">Valores que orientam como pensamos e agimos</h2>
+          <p class="section-intro">
+            Eles aparecem na forma de construir produtos, conduzir projetos e
+            manter relações de longo prazo.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <article class="value reveal"><span class="value-num">01</span><h3>Cliente no centro</h3><p>Escutamos o contexto antes de desenhar a solução.</p></article>
+          <article class="value reveal"><span class="value-num">02</span><h3>Confiança e transparência</h3><p>Comunicamos com clareza e preservamos a rastreabilidade.</p></article>
+          <article class="value reveal"><span class="value-num">03</span><h3>Tecnologia com propósito</h3><p>Inovamos para resolver problemas reais e gerar valor.</p></article>
+          <article class="value reveal"><span class="value-num">04</span><h3>Agilidade responsável</h3><p>Avançamos com velocidade, critério e compromisso.</p></article>
+          <article class="value reveal"><span class="value-num">05</span><h3>Colaboração</h3><p>Construímos junto com clientes, parceiros e equipe.</p></article>
+          <article class="value reveal"><span class="value-num">06</span><h3>Evolução contínua</h3><p>Aprendemos, medimos e melhoramos de forma permanente.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ATUAÇÃO ============ -->
+    <section class="section section-alt" id="atuacao">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Nossa atuação</span>
+          <h2 class="section-title">Digitalizamos a jornada de supply sem perder a realidade do negócio</h2>
+          <p class="section-intro">
+            Atuamos entre estratégia, operação e tecnologia para conectar o
+            processo de ponta a ponta.
+          </p>
+        </div>
+
+        <div class="cards-3">
+          <article class="scope-card reveal">
+            <span class="scope-num">01</span>
+            <h3>Fornecedores</h3>
+            <p>Cadastro, homologação, documentos, risco, desempenho e relacionamento.</p>
+          </article>
+          <article class="scope-card reveal">
+            <span class="scope-num">02</span>
+            <h3>Compras</h3>
+            <p>Demandas, workflows, cotações, aprovações, contratos e acompanhamento.</p>
+          </article>
+          <article class="scope-card reveal">
+            <span class="scope-num">03</span>
+            <h3>Tecnologia</h3>
+            <p>Integrações, automações, dados, inteligência artificial e evolução de produto.</p>
+          </article>
+        </div>
+
+        <p class="pullquote reveal">
+          O objetivo não é apenas digitalizar tarefas — é criar uma operação
+          <span class="grad-text">conectada, governada e capaz de aprender.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ PORTFÓLIO ============ -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Portfólio</span>
+          <h2 class="section-title">Soluções que conectam governança e execução</h2>
+          <p class="section-intro">
+            XConecta e Compras Digital formam uma base para evoluir processos,
+            integrações e experiências.
+          </p>
+        </div>
+
+        <div class="product">
+          <div class="product-media reveal">
+            <figure class="process-figure">
+              <div class="process-card">
+                <span class="process-kicker">Processo</span>
+                <h3 class="process-title">Do portal do fornecedor ao registro fiscal</h3>
+                <ol class="process-flow">
+                  <li class="pstep">
+                    <span class="pstep-badge" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 20h8M12 17v3"/></svg>
+                    </span>
+                    <div class="pstep-text">
+                      <span class="pstep-num">01</span>
+                      <h4>Portal de fornecedores</h4>
+                      <p>Autoatendimento 24/7 para cadastro, envio de documentos e acompanhamento em tempo real.</p>
+                    </div>
+                  </li>
+                  <li class="pstep">
+                    <span class="pstep-badge" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 l7 3 v5 c0 4.5 -3 7 -7 8.5 c-4 -1.5 -7 -4 -7 -8.5 v-5 Z"/><path d="M8.7 11.8 l2.3 2.3 l4.3 -4.6"/></svg>
+                    </span>
+                    <div class="pstep-text">
+                      <span class="pstep-num">02</span>
+                      <h4>Homologação, monitoramento e avaliação de fornecedores</h4>
+                      <p>Homologação automática, análise de risco e avaliação de desempenho contínua.</p>
+                    </div>
+                  </li>
+                  <li class="pstep">
+                    <span class="pstep-badge" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5 h1.6 l1.8 9.4 a1 1 0 0 0 1 .8 h7 a1 1 0 0 0 1 -.8 l1.3 -6.4 H7"/><circle cx="9.5" cy="19" r="1.3" fill="currentColor" stroke="none"/><circle cx="16" cy="19" r="1.3" fill="currentColor" stroke="none"/></svg>
+                    </span>
+                    <div class="pstep-text">
+                      <span class="pstep-num">03</span>
+                      <h4>Compras</h4>
+                      <p>Requisição, cotação, aprovação e pedido em um fluxo único e governado.</p>
+                    </div>
+                  </li>
+                  <li class="pstep">
+                    <span class="pstep-badge" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3 h6.5 L18 7.5 V20 a1 1 0 0 1 -1 1 H7 a1 1 0 0 1 -1 -1 V4 a1 1 0 0 1 1 -1 Z"/><path d="M13 3 v4.5 h4.5"/><path d="M9 12.5 h6 M9 15.5 h6"/></svg>
+                    </span>
+                    <div class="pstep-text">
+                      <span class="pstep-num">04</span>
+                      <h4>Contratos</h4>
+                      <p>Elaboração, aprovação e assinatura digital das minutas contratuais.</p>
+                    </div>
+                  </li>
+                  <li class="pstep">
+                    <span class="pstep-badge" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3 h12 v17 l-2 -1.4 -2 1.4 -2 -1.4 -2 1.4 -2 -1.4 -2 1.4 Z"/><path d="M9 8 h6 M9 11 h6 M9 14 h4"/></svg>
+                    </span>
+                    <div class="pstep-text">
+                      <span class="pstep-num">05</span>
+                      <h4>Nota Fiscal</h4>
+                      <p>Captura, conferência e registro integrado ao ERP.</p>
+                    </div>
+                  </li>
+                </ol>
+                <p class="process-foot">Rastreável e integrado ao ERP — configurável conforme o seu negócio.</p>
+              </div>
+            </figure>
+            <p class="caption">Fluxo ilustrativo de ponta a ponta — do portal do fornecedor ao registro fiscal.</p>
+          </div>
+
+          <div class="product-info reveal">
+            <div class="product-block">
+              <h3 class="product-name product-name--logo">
+                <a class="logo-plate logo-plate--xconecta" href="https://www.xconecta.com.br" target="_blank" rel="noopener" aria-label="Conheça o XConecta — site exclusivo"><img src="assets/xconecta-logo.png" alt="XConecta — um produto Suplavia" /></a>
+              </h3>
+              <p class="product-tag">Governança de fornecedores e compras</p>
+              <ul class="ticks">
+                <li>Cadastro e homologação</li>
+                <li>Documentos, avaliação e risco</li>
+                <li>Cotações, contratos e performance</li>
+              </ul>
+              <a href="https://www.xconecta.com.br" target="_blank" rel="noopener" class="product-cta">
+                Conheça o XConecta
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+
+            <div class="product-block">
+              <h3 class="product-name product-name--logo">
+                <a class="logo-plate logo-plate--compras" href="compras-digital.html" aria-label="Conheça o Compras Digital"><img src="assets/compras-digital-logo.png" alt="Compras Digital by Suplavia" /></a>
+              </h3>
+              <p class="product-tag">Workflows configuráveis para processos específicos de suprimentos</p>
+              <p class="product-flow">
+                Planejamento • solicitações • análises • aprovações • documentos •
+                integração com ERP
+              </p>
+              <a href="compras-digital.html" class="product-cta">
+                Conheça o Compras Digital
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+
+            <div class="product-block">
+              <h3 class="product-name">Inteligência Artificial</h3>
+              <p class="product-tag">Aplicada ao seu negócio</p>
+              <p class="product-flow">
+                Automação inteligente • análise preditiva • assistentes e
+                copilotos • insights em tempo real
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DIFERENCIAIS ============ -->
+    <section class="section section-alt" id="diferenciais">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Diferenciais</span>
+          <h2 class="section-title">Especialização que combina produto, projeto e proximidade</h2>
+          <p class="section-intro">
+            A tecnologia é acompanhada por conhecimento de processo, capacidade de
+            integração e uma equipe que evolui junto com o cliente.
+          </p>
+        </div>
+
+        <div class="cards-2x2">
+          <article class="diff reveal">
+            <span class="diff-num">01</span>
+            <h3>Foco em supply</h3>
+            <p>Domínio de fornecedores, compras, compliance e fluxos empresariais.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">02</span>
+            <h3>Integração ao ecossistema</h3>
+            <p>Conexão com ERPs, GEDs, portais, APIs e sistemas legados.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">03</span>
+            <h3>Governança desde o desenho</h3>
+            <p>Regras, perfis, evidências e histórico incorporados ao processo.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">04</span>
+            <h3>Evolução contínua</h3>
+            <p>Produto, suporte e roadmap orientados por uso e prioridades reais.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMO TRABALHAMOS ============ -->
+    <section class="section" id="metodo">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Como trabalhamos</span>
+          <h2 class="section-title">Começamos pelo contexto e evoluímos com método</h2>
+          <p class="section-intro">
+            Cada iniciativa equilibra prioridade de negócio, experiência do
+            usuário, arquitetura e governança.
+          </p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h3>Entender</h3>
+            <p>Processo, dor, pessoas, sistemas e indicadores.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <h3>Desenhar</h3>
+            <p>Jornada, regras, integrações e responsabilidades.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <h3>Implantar</h3>
+            <p>Configuração, desenvolvimento, testes e adoção.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">04</span>
+            <h3>Evoluir</h3>
+            <p>Suporte, dados de uso, backlog e roadmap.</p>
+          </li>
+        </ol>
+
+        <p class="method-note reveal">
+          Implantação modular &nbsp;•&nbsp; governança conjunta &nbsp;•&nbsp;
+          transferência de conhecimento &nbsp;•&nbsp; melhoria contínua
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ TECNOLOGIA ============ -->
+    <section class="section section-alt" id="tecnologia">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Tecnologia</span>
+          <h2 class="section-title">Uma base preparada para integrar, automatizar e governar</h2>
+          <p class="section-intro">
+            A arquitetura acompanha a complexidade do cliente sem competir com
+            seus sistemas oficiais.
+          </p>
+        </div>
+
+        <div class="tech-highlight">
+          <article class="tech-hl-card reveal">
+            <h3>Integração</h3>
+            <p>ERPs, APIs, webhooks, GEDs e sistemas do cliente.</p>
+            <p class="tech-hl-note">
+              Experiência de integração por projeto com ambientes como TOTVS,
+              SAP, IBM Maximo e SharePoint.
+            </p>
+            <div class="tech-tags">
+              <span>TOTVS</span><span>SAP</span><span>IBM Maximo</span><span>SharePoint</span>
+            </div>
+          </article>
+          <article class="tech-hl-card reveal">
+            <h3>Automação e IA</h3>
+            <p>Menos esforço repetitivo. Mais contexto para decidir.</p>
+            <div class="tech-tags">
+              <span>Automação</span><span>Inteligência artificial</span><span>Dados</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="cards-3">
+          <article class="pillar reveal">
+            <span class="pillar-num">01</span>
+            <h3>Arquitetura modular</h3>
+            <p>Componentes independentes facilitam integrações e evolução.</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar-num">02</span>
+            <h3>Rastreabilidade</h3>
+            <p>Eventos, documentos, regras e decisões conectados ao histórico.</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar-num">03</span>
+            <h3>Segurança por desenho</h3>
+            <p>Perfis, segregação, controles e tratamento responsável de dados.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ECOSSISTEMA TOTVS ============ -->
+    <section class="section totvs-section" id="totvs">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Ecossistema TOTVS</span>
+          <h2 class="section-title">Somos especialistas em soluções TOTVS</h2>
+          <p class="section-intro">
+            Do ERP à automação e à inteligência artificial — um único parceiro
+            para todo o seu ambiente TOTVS.
+          </p>
+        </div>
+
+        <span class="sub-label reveal">Produtos</span>
+        <div class="totvs-grid">
+          <article class="totvs-card reveal">
+            <h3>Protheus</h3>
+            <p>ERP corporativo</p>
+          </article>
+          <article class="totvs-card reveal">
+            <h3>RM</h3>
+            <p>Gestão e backoffice</p>
+          </article>
+          <article class="totvs-card reveal">
+            <h3>Datasul</h3>
+            <p>ERP para manufatura</p>
+          </article>
+          <article class="totvs-card reveal">
+            <h3>Fluig</h3>
+            <p>BPM, ECM e portais</p>
+          </article>
+        </div>
+
+        <span class="sub-label reveal">Como atuamos</span>
+        <div class="cards-2x2">
+          <article class="diff reveal">
+            <span class="diff-num">01</span>
+            <h3>Implantação & suporte</h3>
+            <p>Projetos, customizações e sustentação contínua.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">02</span>
+            <h3>Integrações</h3>
+            <p>Entre Protheus, RM, Datasul e Fluig.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">03</span>
+            <h3>Automação (Fluig)</h3>
+            <p>Workflows, aprovações e processos digitais.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">04</span>
+            <h3>IA sobre o ERP</h3>
+            <p>Inteligência artificial aplicada aos dados do seu negócio.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ESTRUTURA ============ -->
+    <section class="section" id="estrutura">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Nossa estrutura</span>
+          <h2 class="section-title">Conhecimento preservado, atendimento próximo</h2>
+          <p class="section-intro">
+            A Suplavia concentra pessoas que conhecem os produtos, os projetos e
+            as necessidades operacionais dos clientes.
+          </p>
+        </div>
+
+        <div class="cards-2x2">
+          <article class="diff reveal">
+            <span class="diff-num">01</span>
+            <h3>Engenharia</h3>
+            <p>Equipe envolvida na construção, manutenção e evolução das soluções.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">02</span>
+            <h3>Conhecimento</h3>
+            <p>Histórico de produtos, integrações, ambientes e processos dos clientes.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">03</span>
+            <h3>Suporte</h3>
+            <p>Canal oficial, acompanhamento estruturado e continuidade das tratativas.</p>
+          </article>
+          <article class="diff reveal">
+            <span class="diff-num">04</span>
+            <h3>Inovação</h3>
+            <p>Capacidade em inteligência artificial, automação, análise e novos produtos.</p>
+          </article>
+        </div>
+
+        <div class="support-strip reveal">
+          <span class="support-label">Atendimento oficial</span>
+          <div class="support-items">
+            <a href="mailto:atendimento@suplavia.com.br">atendimento@suplavia.com.br</a>
+            <a href="https://suplavia.movidesk.com" target="_blank" rel="noopener">suplavia.movidesk.com</a>
+            <span>São Paulo • Rio de Janeiro • Belo Horizonte</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SUPLAVIA EM NÚMEROS ============ -->
+    <section class="section section-alt" id="numeros">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Suplavia em números</span>
+          <h2 class="section-title">Especialização que se traduz em foco</h2>
+          <p class="section-intro">
+            Uma operação enxuta, dedicada e profundamente especializada no que
+            importa em supply.
+          </p>
+        </div>
+
+        <div class="num-grid">
+          <article class="num-card reveal">
+            <span class="num-value grad-text">15+</span>
+            <span class="num-label">Anos</span>
+            <p class="num-desc">de experiência da liderança em tecnologia e produtos digitais.</p>
+          </article>
+          <article class="num-card reveal">
+            <span class="num-value grad-text">05</span>
+            <span class="num-label">Produtos</span>
+            <p class="num-desc">consolidados: Plataforma XConecta e Compras Digital.</p>
+          </article>
+          <article class="num-card reveal">
+            <span class="num-value grad-text">80+</span>
+            <span class="num-label">Clientes</span>
+            <p class="num-desc">aderiram às soluções Suplavia, com mais de 1M de fornecedores gerenciados.</p>
+          </article>
+          <article class="num-card reveal">
+            <span class="num-value grad-text">10+</span>
+            <span class="num-label">Setores</span>
+            <p class="num-desc">críticos atendidos, do industrial ao offshore.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SETORES ============ -->
+    <section class="section setores" id="setores">
+      <div class="setores-bg" aria-hidden="true">
+        <img src="assets/sectors.jpg" alt="" loading="lazy" />
+        <div class="setores-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Onde atuamos</span>
+          <h2 class="section-title">Supply complexo exige conexão e controle</h2>
+          <p class="section-intro">
+            Nossa abordagem se adapta a organizações com muitos fornecedores,
+            exigência documental, múltiplos sistemas e decisões distribuídas.
+          </p>
+        </div>
+
+        <div class="sector-chips reveal">
+          <span class="sector-chip">Construção e Engenharia</span>
+          <span class="sector-chip">Indústria</span>
+          <span class="sector-chip">Energia e Offshore</span>
+          <span class="sector-chip">Infraestrutura</span>
+          <span class="sector-chip">Saúde</span>
+        </div>
+
+        <p class="setores-note reveal">
+          A configuração considera criticidade, processo, pessoas e arquitetura de
+          cada negócio.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO / CTA ============ -->
+    <section class="section cta" id="contato">
+      <div class="container">
+        <div class="section-head section-head-center reveal">
+          <span class="kicker">Contato</span>
+          <h2 class="cta-title">
+            Vamos conversar sobre a sua <span class="grad-text">operação de supply?</span>
+          </h2>
+          <p class="cta-sub">
+            Conte seu contexto e prioridades — um especialista retorna para desenhar
+            uma jornada de evolução conectada ao seu negócio.
+          </p>
+        </div>
+
+        <div class="contact-layout reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="field">
+              <label for="cf-nome">Nome <span aria-hidden="true">*</span></label>
+              <input id="cf-nome" name="nome" type="text" required autocomplete="name" placeholder="Seu nome" />
+            </div>
+            <div class="field">
+              <label for="cf-empresa">Empresa</label>
+              <input id="cf-empresa" name="empresa" type="text" autocomplete="organization" placeholder="Nome da empresa" />
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="cf-email">E-mail <span aria-hidden="true">*</span></label>
+                <input id="cf-email" name="email" type="email" required autocomplete="email" placeholder="voce@empresa.com.br" />
+              </div>
+              <div class="field">
+                <label for="cf-telefone">Telefone</label>
+                <input id="cf-telefone" name="telefone" type="tel" autocomplete="tel" placeholder="(00) 00000-0000" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="cf-mensagem">Como podemos ajudar?</label>
+              <textarea id="cf-mensagem" name="mensagem" rows="4" placeholder="Fale um pouco sobre sua operação, sistemas e desafios."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar mensagem</button>
+            <p class="form-note" id="form-note" role="status" aria-live="polite">
+              Seus dados são usados apenas para retorno do contato.
+            </p>
+          </form>
+
+          <aside class="contact-aside">
+            <a class="contact-card contact-card-wa" href="https://wa.me/5521996921453?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20especialista%20da%20Suplavia." target="_blank" rel="noopener">
+              <span class="contact-label">WhatsApp</span>
+              <span class="contact-value">(21) 99692-1453</span>
+            </a>
+            <a class="contact-card" href="mailto:atendimento@suplavia.com.br">
+              <span class="contact-label">E-mail</span>
+              <span class="contact-value">atendimento@suplavia.com.br</span>
+            </a>
+            <a class="contact-card" href="https://suplavia.movidesk.com" target="_blank" rel="noopener">
+              <span class="contact-label">Suporte</span>
+              <span class="contact-value">suplavia.movidesk.com</span>
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/company/suplavia" target="_blank" rel="noopener">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">linkedin.com/company/suplavia</span>
+            </a>
+            <div class="contact-card contact-card-static">
+              <span class="contact-label">Presença</span>
+              <span class="contact-value">São Paulo • Rio de Janeiro • Belo Horizonte</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img class="footer-logo-img" src="assets/suplavia-logo.svg" alt="Suplavia — Smart Supply Technology" width="196" height="54" />
+        <p class="footer-desc">
+          Tecnologia que conecta supply, pessoas e decisões.
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Rodapé">
+        <div class="footer-col">
+          <span class="footer-col-title">Empresa</span>
+          <a href="#quem-somos">Quem somos</a>
+          <a href="#origem">Origem</a>
+          <a href="#proposito">Propósito</a>
+          <a href="#numeros">Números</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Soluções</span>
+          <a href="#atuacao">Atuação</a>
+          <a href="#portfolio">Portfólio</a>
+          <a href="#tecnologia">Tecnologia</a>
+          <a href="#totvs">Ecossistema TOTVS</a>
+          <a href="#setores">Setores</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-col-title">Contato</span>
+          <a href="https://wa.me/5521996921453" target="_blank" rel="noopener">WhatsApp (21) 99692-1453</a>
+          <a href="mailto:atendimento@suplavia.com.br">atendimento@suplavia.com.br</a>
+          <a href="https://suplavia.movidesk.com" target="_blank" rel="noopener">suplavia.movidesk.com</a>
+          <a href="https://www.linkedin.com/company/suplavia" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© 2026 Suplavia • Smart Supply Technology</span>
+      <span>São Paulo • Rio de Janeiro • Belo Horizonte</span>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante — WhatsApp -->
+  <a href="https://wa.me/5521996921453?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20um%20especialista%20da%20Suplavia." class="fab" id="fab" target="_blank" rel="noopener" aria-label="Falar no WhatsApp com um especialista">
+    <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+      <path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.6 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.3-.4A9.8 9.8 0 1 1 16 24.8zm5.4-7.3c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5s-.7-1.6-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 2.9 1.2 2.9.8 3.5.8.5 0 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.5-.3z"/>
+    </svg>
+    <span>Falar no WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
